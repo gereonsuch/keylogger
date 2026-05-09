@@ -1,0 +1,29 @@
+# KiCad backup and autosave
+*.bak
+*.bck
+*-bak.*
+*_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+
+# KiCad temp files
+*.000
+*.lock
+fp-info-cache
+
+# KiCad backup folder (KiCad 6+)
+_autosave/
+backups/
+**/*-backups/
+
+# Output folders (self-generated)
+gerbers/
+fab/
+output/
+export/
+
+# OS
+.DS_Store
+Thumbs.db
+
